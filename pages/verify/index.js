@@ -41,7 +41,7 @@ class Verify extends Component {
     }
 
     verify(){
-       postData('verify-code', this.state).then((result)=>{
+       postData('verify-code', {'verification_code':this.state.verification_code}).then((result)=>{
          const {history} = this.props
          let response = result;
          if(this.state.token){

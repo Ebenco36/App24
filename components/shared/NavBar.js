@@ -19,104 +19,7 @@ const NavBar= () => {
                 <li className="nav-item">
                     <a id="settings_toggle_btn" className="nav-link nav-link-hover" href="javascript:void(0);"><i className="ion ion-ios-settings"></i></a>
                 </li>
-                <li className="nav-item dropdown dropdown-notifications">
-                    <a className="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i className="ion ion-ios-notifications"></i>
-                        <span className="badge-wrap">
-                            <span className="badge badge-primary badge-indicator badge-indicator-sm badge-pill pulse"></span>
-                        </span>
-                    </a>
-                    <div className="dropdown-menu dropdown-menu-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
-                        <h6 className="dropdown-header">Notifications <a href="" className="">View all</a></h6>
-                        <div className="notifications-nicescroll-bar">
-                            <a href="" className="dropdown-item">
-                                <div className="media">
-                                    <div className="media-img-wrap">
-                                        <div className="avatar avatar-sm">
-                                            <img src="/img/avatar1.jpg" alt="user" className="avatar-img rounded-circle"/>
-                                        </div>
-                                    </div>
-                                    <div className="media-body">
-                                        <div>
-                                            <div className="notifications-text"><span className="text-dark text-capitalize">Evie Ono</span> accepted your invitation to join the team</div>
-                                            <div className="notifications-time">12m</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div className="dropdown-divider"></div>
-                            <a href="" className="dropdown-item">
-                                <div className="media">
-                                    <div className="media-img-wrap">
-                                        <div className="avatar avatar-sm">
-                                            <img src="/img/avatar2.jpg" alt="user" className="avatar-img rounded-circle"/>
-                                        </div>
-                                    </div>
-                                    <div className="media-body">
-                                        <div>
-                                            <div className="notifications-text">New message received from <span className="text-dark text-capitalize">Misuko Heid</span></div>
-                                            <div className="notifications-time">1h</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div className="dropdown-divider"></div>
-                            <a href="javascript:void(0);" className="dropdown-item">
-                                <div className="media">
-                                    <div className="media-img-wrap">
-                                        <div className="avatar avatar-sm">
-                                            <span className="avatar-text avatar-text-primary rounded-circle">
-													<span className="initial-wrap"><span><i className="zmdi zmdi-account font-18"></i></span></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="media-body">
-                                        <div>
-                                            <div className="notifications-text">You have a follow up with<span className="text-dark text-capitalize"> Pinkman head</span> on <span className="text-dark text-capitalize">friday, dec 19</span> at <span className="text-dark">10.00 am</span></div>
-                                            <div className="notifications-time">2d</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div className="dropdown-divider"></div>
-                            <a href="javascript:void(0);" className="dropdown-item">
-                                <div className="media">
-                                    <div className="media-img-wrap">
-                                        <div className="avatar avatar-sm">
-                                            <span className="avatar-text avatar-text-success rounded-circle">
-													<span className="initial-wrap"><span>A</span></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="media-body">
-                                        <div>
-                                            <div className="notifications-text">Application of <span className="text-dark text-capitalize">Sarah Williams</span> is waiting for your approval</div>
-                                            <div className="notifications-time">1w</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div className="dropdown-divider"></div>
-                            <a href="javascript:void(0);" className="dropdown-item">
-                                <div className="media">
-                                    <div className="media-img-wrap">
-                                        <div className="avatar avatar-sm">
-                                            <span className="avatar-text avatar-text-warning rounded-circle">
-													<span className="initial-wrap"><span><i className="zmdi zmdi-notifications font-18"></i></span></span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="media-body">
-                                        <div>
-                                            <div className="notifications-text">Last 2 days left for the project</div>
-                                            <div className="notifications-time">15d</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </li>
+                
                 <li className="nav-item dropdown dropdown-authentication">
                     <a className="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div className="media">
@@ -132,17 +35,13 @@ const NavBar= () => {
                         </div>
                     </a>
                     <div className="dropdown-menu dropdown-menu-right" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
-                        <a className="dropdown-item" href="profile.html"><i className="dropdown-icon zmdi zmdi-account"></i><span>Profile</span></a>
-                        <a className="dropdown-item" href="#"><i className="dropdown-icon zmdi zmdi-card"></i><span>My balance</span></a>
-                        <a className="dropdown-item" href="inbox.html"><i className="dropdown-icon zmdi zmdi-email"></i><span>Inbox</span></a>
-                        <a className="dropdown-item" href="#"><i className="dropdown-icon zmdi zmdi-settings"></i><span>Settings</span></a>
+                        <a className="dropdown-item" href="/login"><i className="dropdown-icon zmdi zmdi-account"></i><span>Login</span></a>
                         <div className="dropdown-divider"></div>
                         <div className="sub-dropdown-menu show-on-hover">
                             <a href="#" className="dropdown-toggle dropdown-item no-caret"><i className="zmdi zmdi-check text-success"></i>Online</a>
                             <div className="dropdown-menu open-left-side">
                                 <a className="dropdown-item" href="#"><i className="dropdown-icon zmdi zmdi-check text-success"></i><span>Online</span></a>
-                                <a className="dropdown-item" href="#"><i className="dropdown-icon zmdi zmdi-circle-o text-warning"></i><span>Busy</span></a>
-                                <a className="dropdown-item" href="#"><i className="dropdown-icon zmdi zmdi-minus-circle-outline text-danger"></i><span>Offline</span></a>
+                                
                             </div>
                         </div>
                         <div className="dropdown-divider"></div>
@@ -342,42 +241,7 @@ const NavBar= () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="cards.html">Cards</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="carousel.html">Carousel</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="collapse.html">Collapse</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="dropdowns.html">Dropdown</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="list-group.html">List Group</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="modal.html">Modal</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="nav.html">Nav</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="navbar.html">Navbar</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="nestable.html">Nestable</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="pagination.html">Pagination</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="popovers.html">Popovers</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="progress.html">Progress</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="tooltip.html">Tooltip</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
@@ -417,24 +281,7 @@ const NavBar= () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="border.html">Border</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="colors.html">Colors</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="embeds.html">Embeds</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="icons.html">Icons</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="shadow.html">Shadow</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="sizing.html">Sizing</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="spacing.html">Spacing</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
@@ -453,24 +300,7 @@ const NavBar= () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="input-groups.html">Input Groups</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="form-layout.html">Form Layout</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="form-mask.html">Form Mask</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="form-validation.html">Form Validation</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="form-wizard.html">Form Wizard</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="file-upload.html">File Upload</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="editor.html">Editor</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
@@ -486,15 +316,7 @@ const NavBar= () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="basic-table.html">Basic Table</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="data-table.html">Data Table</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="responsive-table.html">Responsive Table</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="editable-table.html">Editable Table</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
@@ -510,21 +332,7 @@ const NavBar= () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="line-charts.html">Line Chart</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="area-charts.html">Area Chart</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="bar-charts.html">Bar Chart</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="pie-charts.html">Pie Chart</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="realtime-charts.html">Realtime Chart</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="mini-charts.html">Mini Chart</a>
-                                        </li>
+                                       
                                     </ul>
                                 </li>
                             </ul>
@@ -540,9 +348,7 @@ const NavBar= () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="google-map.html">Google Map</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="vector-map.html">Vector Map</a>
-                                        </li>
+                                        
                                     </ul>
                                 </li>
                             </ul>

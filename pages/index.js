@@ -70,58 +70,7 @@ const IndexPage= () => {
             <div className="container mt-xl-50 mt-sm-30 mt-15">
                 <div className="row">
 					<div className="col-xl-12">
-                        <section className="hk-sec-wrapper">
-                            <h5 className="hk-sec-title">Introduction</h5>
-                            <p>Pinkman is a Bootstrap 4.1.X & Sass based solid core framework that works well for all screen sizes and modern browsers.  HTML5 validated clean code is focused - keeping it simple and orderly. With Pinkman's UI components library, you can actually get more time on building stuff, rather than editing pixel ances. 
-
-							Pinkman - HTML template and Admin UI kit can be used for any type of web application: CRM, Project Management, Statistics, Analytics or any custom admin dashboard.
-
-							This documentation will guide you through installing the template and exploring the various components that are bundled with the template.</p>
-						</section>
-						<section className="hk-sec-wrapper">
-                            <h5 className="hk-sec-title">File Structure</h5>
-							<pre className="bg-violet-light-5 pt-25">
-							HTML
-							  ├── 
-							  │   └── 
-							  │     └── css
-							  │     └── fonts
-							  │     └── img
-							  │     └── js
-							  │   └── src
-							  │     └──scss
-							  │    	  └── colors.scss
-							  │    	  └── mixins.scss
-							  │    	  └── navbar.scss
-							  │    	  └── style.scss
-							  │   └── vendors
-							  │       └── All Required plugins files
-							  │   └── All Html Pages
-							  │   └── .jshintrc
-							  │   └── Gruntfile.js
-							  │   └── package.json
-							  │   └── package-lock.json
-							  └── 
-							</pre>							  
-						</section>
-						<section className="hk-sec-wrapper">
-                            <h5 className="hk-sec-title">Installation (Install Node.js,Grunt)</h5>
-							<p className="mb-20">Use of these tools are completely optional.</p>
-									<ul className="list-ul mt-20 mb-20 pl-15">
-										<li className="mb-10 txt-dark">Node.js and NPM. You can download Node.js from here <a href="https://nodejs.org." target="_blank">https://nodejs.org.</a> Npm comes bundled with Node.js</li>
-										<li className="mb-10 txt-dark">Next you need to install bower.</li>
-										<li className="txt-dark" >At last install grunt using <code>npm install -g grunt-cli</code> and <code>npm install grunt --save-dev</code></li>
-									</ul>
-									<p>After installing all the required frameworks, components and dependencies, go to the root folder of and run the following commands from the command line:</p>
-									<ul className="list-ul mt-20 mb-20 pl-15">
-										<li className="mb-10 txt-dark">npm install</li>
-										<li className="mb-10 txt-dark">grunt </li>
-										<li className="txt-dark" >grunt</li>
-									</ul>
-									<p>If everything was installed correctly, you should see the jQuery version of Pinkman running in <strong>http://localhost:9000/</strong></p>
-									<br/>
-									<p><strong>Above all procedures are optional you can directly use the compiled file which we provided you.</strong></p>
-						</section>
+                        
 						<section className="hk-sec-wrapper">
                             <h5 className="hk-sec-title">Menu Style</h5>
 							<p className="mb-20">For vertical navigation you have to first add <code>hk-vertical-nav</code> className with <code>hk-wrapper</code>.</p>

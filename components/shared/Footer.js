@@ -7,7 +7,7 @@ const Footer= () => {
                 <footer className="footer">
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
-                            <p>Pampered by<a href="https://hencework.com/" className="text-dark" target="_blank">Hencework</a> © 2019</p>
+                            <p>Pampered by<a href="" className="text-dark" target="_blank">24Hour Code Challenge</a> © 2020</p>
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <p className="d-inline-block">Follow us</p>
